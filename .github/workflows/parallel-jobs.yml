@@ -45,6 +45,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Lint code
-        run: pylint calculator.py
+        run: pylint src/calculator.py
         env:
           PYTHONPATH: ${{ github.workspace }}
