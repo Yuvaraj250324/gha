@@ -9,6 +9,6 @@ on:
 
 jobs:
   example:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, ${{ inputs.username }}!"
