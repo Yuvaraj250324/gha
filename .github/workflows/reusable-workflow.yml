@@ -1,0 +1,14 @@
+name: Reusable Workflow
+
+on:
+  workflow_call:
+    inputs:
+      username:
+        required: true
+        type: string
+
+jobs:
+  example:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello, ${{ inputs.username }}!"
