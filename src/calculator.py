@@ -1,5 +1,5 @@
 """
-Simple calculator module
+Simple calculator module 
 Provides basic arithmetic operations.
 """
 
