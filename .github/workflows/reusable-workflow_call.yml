@@ -1,0 +1,13 @@
+name: Call Reusable Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  call-workflow:
+    uses: ./.github/workflows/reusable-workflow.yml
+    with:
+      username: 'GitHub User'

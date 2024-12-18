@@ -1,0 +1,11 @@
+pytest
+pytest-cov
+requests
+flask
+Django
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pylint
