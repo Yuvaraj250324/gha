@@ -1,4 +1,4 @@
-name: Python CI with Caching
+name: Dependancy Caching
 
 on: [push, pull_request]
 

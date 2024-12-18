@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: Access Management
 
 on: [push, pull_request]
 

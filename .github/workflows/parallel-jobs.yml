@@ -1,4 +1,4 @@
-name: Parallel Jobs Example
+name: Parallel Jobs
 
 on: [push, pull_request]
 

@@ -1,4 +1,4 @@
-name: Matrix Build Example
+name: Matrix Build
 
 on: [push, pull_request]
 

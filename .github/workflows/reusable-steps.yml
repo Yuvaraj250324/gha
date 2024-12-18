@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: Re-Usable Steps
 
 on: [push, pull_request]
 
